@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Grid Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .block {
+            background-color: #5bc0de;
+            border: 2px solid white;
+            color: white;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 30px 10px;
+        }
+        .block6 { background-color: #0275d8; }
+        .block8 { background-color: #0275d8; }
+    </style>
+</head>
+<body>
+    <div class="container-fluid p-3">
+        <div class="row g-2">
+            <div class="col-md-4"><div class="block">block 1</div></div>
+            <div class="col-md-8"><div class="block">block 2</div></div>
+        </div>
+
+        <div class="row g-2">
+            <div class="col-md-4"><div class="block">block 3</div></div>
+            <div class="col-md-4"><div class="block block6">block 6</div></div>
+            <div class="col-md-4">
+                <div class="row g-2">
+                    <div class="col-12"><div class="block">block 7</div></div>
+                    <div class="col-12"><div class="block block8">block 8</div></div>
+                    <div class="col-12"><div class="block">block 9</div></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-2">
+            <div class="col-md-4"><div class="block">block 4</div></div>
+            <div class="col-md-4"><div class="block">block 5</div></div>
+        </div>
+    </div>
+</body>
+</html>
