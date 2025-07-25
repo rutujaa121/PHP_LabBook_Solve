@@ -16,39 +16,52 @@
         }
         .block6 {
             background-color: #0275d8; 
-        
+            padding-top: 203px;
+            padding-bottom: 200px;
         }
         .block8 { 
             background-color: #0275d8; 
         }
         .block3{
-            padding-bottom: 110px;
-            background-color: red;
+            padding-bottom: 150px;
+            padding-top: 150px;
+            align-items: center;
         }
+        .block4, .block1{
+            background-color: #0275d8;
+        }
+        .block-bottom{
+            margin-top: -110px;
+        }
+        .block-aside{
+            padding-top: 51px;
+            padding-bottom: 51px;
+        }
+        
     </style>
 </head>
 <body>
     <div class="container-fluid p-3">
         <div class="row g-2">
-            <div class="col-md-4"><div class="block">block 1</div></div>
+            <div class="col-md-4"><div class="block block1">block 1</div></div>
             <div class="col-md-8"><div class="block">block 2</div></div>
         </div>
 
         <div class="row g-2">
             <div class="col-md-6"><div class="block block3">block 3</div></div>
-            <div class="col-md-2 pb-5"><div class="block block6 pb-5">block 6</div></div>
+            <div class="col-md-2"><div class="block block6">block 6</div></div>
             <div class="col-md-4">
                 <div class="row g-2">
-                    <div class="col-12"><div class="block">block 7</div></div>
-                    <div class="col-12"><div class="block block8">block 8</div></div>
-                    <div class="col-12"><div class="block">block 9</div></div>
+                    <div class="col-12"><div class="block block-aside">block 7</div></div>
+                    <div class="col-12"><div class="block block8 block-aside">block 8</div></div>
+                    <div class="col-12"><div class="block block-aside">block 9</div></div>
                 </div>
             </div>
         </div>
 
-        <div class="row g-2">
-            <div class="col-md-3"><div class="block">block 4</div></div>
-            <div class="col-md-3"><div class="block">block 5</div></div>
+        <div class="row g-2 block-bottom">
+            <div class="col-md-3 pb-3"><div class="block block4">block 4</div></div>
+            <div class="col-md-3 pb-3"><div class="block">block 5</div></div>
         </div>
     </div>
 </body>
