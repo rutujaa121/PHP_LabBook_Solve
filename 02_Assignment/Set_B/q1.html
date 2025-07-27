@@ -10,8 +10,13 @@
         *{
                 margin: 0;
                 padding: 0;
+                /* overflow: hidden; */
+
         }
-        
+        .sidebar{
+                overflow-y: hidden;
+        }
+       
         .navigation{
                 border-bottom: 2px solid rgb(143, 143, 143);
                 background-color: rgba(60, 73, 60, 0.671);
@@ -27,14 +32,17 @@
         .notification{
                 margin-right: 20px;
         }
-       
+       .user{
+        padding: 23px;
+        padding-left: 45rem;
+       }
     </style>
 </head>
 <body>
     <div class="container-fluid p-0">
         <div class="col-md-8" style="display: flex;">
             <div class="col-md-6 bg-dark text-light sidebar">
-                <h4 class="text-center p-2">My App</h4>
+                <h4 class="text-center p-3">My App</h4>
                 <div class="col-md-7 text-light p-3 w-100 navigation"> <i class="fa fa-cog"></i> Dashboard</div>
                 <div class="col-md-7 text-light p-3 w-100 navigation"> <i class="fa fa-cog"></i> Shortcuts</div>
                 <div class="col-md-7 text-light p-3 w-100 navigation"> <i class="fa fa-cog"></i> Overview</div>
@@ -51,8 +59,12 @@
             </div>
             
 
-            <div class="col-md-12 bg-secondary">
-                <h6 class="text-left bg-light text-secondary user p-3"> <i class="fa fa-bell text-danger notification"></i> Test User</h6>
+            <div class="col-md-12">
+                <h6 class="text-left bg-light text-secondary user"> <i class="fa fa-bell text-danger notification"></i> Test User</h6>
+                <div class="text-dark p-5">
+                        <h1>Simple Sidebar</h1>
+                        <h5 class="text-secondary">Make sure to keep all page content within the <span class="p-0 alert alert-danger text-danger">#content</span>.</h5>
+                </div>
             </div>
         </div>
         
