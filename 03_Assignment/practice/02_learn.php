@@ -4,8 +4,8 @@ name("Rutuja");
 // calling a function 
 function msg($a)
 {
-    echo "Welcome ";
     echo $a;
+    echo " Welcome ";
 }
 function name($b)
 {
