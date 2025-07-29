@@ -9,6 +9,6 @@ function msg($a)
 }
 function name($b)
 {
-    echo "Hii ";
+    echo " Hii ";
     echo $b;
 }
