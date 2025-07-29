@@ -1,8 +1,7 @@
-<?php 
-msg("Hello"); 
+<?php
+msg("Hello");
 // calling a function 
-function msg($a) 
-{ 
-echo $a; 
-} 
-?>
+function msg($a)
+{
+    echo $a;
+}
