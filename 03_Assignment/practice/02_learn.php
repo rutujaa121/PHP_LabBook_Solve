@@ -8,5 +8,5 @@ function msg($a)
 }
 function name($b)
 {
-    
+    echo $b;
 }
