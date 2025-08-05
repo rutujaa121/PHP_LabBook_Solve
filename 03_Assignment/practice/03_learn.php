@@ -1,5 +1,6 @@
 <?php
-    $a=2;
-    echo $a;
+    $a="Hello World";
+    $$a="php";
+    echo $hello;
 ?>
 
