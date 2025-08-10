@@ -1,3 +1,7 @@
+.main-container{
+    width: 90%;
+    margin: auto;
+}
 .block1{
     height: 100px;
     background-color: rgb(232, 182, 117);
@@ -11,9 +15,9 @@
 .block4{
     background-color: olive;
 }
-.block5{
-    background-color: teal;
-}
+/* .block5{
+    background-color: teal; 
+} */
 .r1{
     height: 100px;
 }
