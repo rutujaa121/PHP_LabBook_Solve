@@ -1,6 +1,12 @@
 .main-container{
     width: 90%;
     margin: auto;
+    text-align: center;
+    color: whitesmoke;
+}
+h4{
+    /* margin-top: 20px; */
+    padding: 30px;
 }
 .block1{
     height: 100px;
@@ -10,14 +16,19 @@
     background-color: rgb(232, 120, 120);
 }
 .block3{
+    height: 195px;
     background-color: orange;
 }
 .block4{
+    width: 24%;
     background-color: olive;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-/* .block5{
-    background-color: teal; 
-} */
+.block5{
+    width: 24%;
+    /* background-color: teal;  */
+}
 .r1{
     height: 100px;
 }
@@ -25,7 +36,9 @@
     height: 100px;
 }
 .r3{
-    height: 100px;
+    height: 90px;
+    margin-top: 5px;
+    background-color: rgb(78, 78, 5);
 }
 .c1{
     height: 100px;
