@@ -1,29 +1,4 @@
-.row1{
+.col-md-4{
     height: 100px;
-}
-
-.block_3{
-    height: 100px;
-    /* background-color: rgb(77, 192, 177); */
-}
-.main-box{
-    height: 100px;
-}
-.box1{
-    background-color: palevioletred;
-    height: 100px;
-}
-.box2{
-    background-color: rgb(210, 34, 93);
-    height: 100px;
-}
-
-.box3{
-    height: 315px;
-    background-color: brown;
-}
-
-.side_bar{
-    height: 94px;
-    background-color: yellowgreen;
+    background-color: antiquewhite;
 }
