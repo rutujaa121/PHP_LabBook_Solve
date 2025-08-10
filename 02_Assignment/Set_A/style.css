@@ -1,4 +1,47 @@
-.col-md-4{
+.block1{
     height: 100px;
-    background-color: antiquewhite;
+    background-color: rgb(232, 182, 117);
+}
+.block2{
+    background-color: rgb(232, 120, 120);
+}
+.block3{
+    background-color: orange;
+}
+.block4{
+    background-color: olive;
+}
+.block5{
+    background-color: teal;
+}
+.r1{
+    height: 100px;
+}
+.r2{
+    height: 100px;
+}
+.r3{
+    height: 100px;
+}
+.c1{
+    height: 100px;
+    background-color: tomato;
+}
+.c2{
+    height: 100px;
+    background-color: rgb(211, 129, 114);
+}
+.b1{
+    height: 95px;
+    background-color: blueviolet;
+}
+.b2{
+    height: 95px;
+    background-color: rgb(43, 226, 110);
+    margin-top: 10px;
+}
+.b3{
+    height: 95px;
+    background-color:  rgb(226, 43, 128);
+    margin-top: 10px;
 }
