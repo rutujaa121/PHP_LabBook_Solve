@@ -1,0 +1,44 @@
+<!-- Q 2Design HTML 5 Page Using CSS Which Display the following Navigation Bar -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        nav{
+            height: 70px;
+            width: 100%;
+            background-color: rgb(200, 200, 200);
+            display: flex;
+            align-items: center;
+
+        }
+        nav span{
+            margin-right: 50px;
+        }
+        nav span a{
+            color: rgb(11, 11, 140);
+            font-size: 22px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 22px 30px 23px 30px;
+        }
+        nav span a:hover{
+            background-color: gray;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <span><a href="#">Home</a></span>
+        <span><a href="#">Java</a></span>
+        <span><a href="#">HTML</a></span>
+        <span><a href="#">CSS </a></span>
+    </nav>
+</body>
+</html>

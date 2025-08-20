@@ -1,0 +1,21 @@
+ul{
+    font-size: 22px;
+}
+.list1{
+    color: red;
+    font-weight: bold;
+}
+.non{
+    color: rgb(114, 30, 198);
+    font-style: italic;
+}
+.plants{
+    color: blue;
+    text-transform: uppercase;
+}
+.order{
+    font-size: 20px;
+    color: rgb(5, 105, 29);
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

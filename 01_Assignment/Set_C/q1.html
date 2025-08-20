@@ -1,0 +1,71 @@
+<!-- Q 1. Design HTML 5 Page Using CSS which display the following Box 
+( use Box Model Property in CSS) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            font-family: tahoma;
+            font-weight: 400;
+        }
+        .main_container{
+            height: 400px;
+            width: 450px;
+            background-color: orange;
+            border: 4px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main_container .container{
+            height: 240px;
+            width: 300px;
+            background-color: brown;
+            border: 4px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .main_container .container .class, .year{
+            height: 45px;
+            width: 220px;
+            background-color: white;
+            margin: 10px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            border: 3px solid black;
+        }
+        .main_container .container h1{
+            font-size: 18px;
+            font-weight: 100;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Box Model Property</h1>
+    <div class="main_container">
+        <div class="container">
+            <div class="class">
+                <h1>T.Y.B.Sc(Computer Sci)</h1>
+            </div>
+            <div class="year">
+                <h1>Academic Year 2021-22</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!-- Q 1. Write the HTML code for generating the form as shown below. 
+Apply the internal CSS to following form change the font size of the heading to 6pt and change the 
+color to red and also change the background color yellow -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            height: 400px;
+            width: 40%;
+            font-size: 20px;
+        
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Operating System Information</legend><br>
+        <form>
+            <label>Enter Your Name <input type="name"></label> <br><br>
+            <label>Enter Password <input type="password"></label> <br><br>
+
+            <label> Which of the following Operating System have you used <br>
+                <label> <input type="checkbox"> Linux </label>
+                <label> <input type="checkbox"> Windows 10 </label>
+                <label> <input type="checkbox"> Macintosh 8.0 </label>
+            </label> <br><br>
+            <label> Which of the following Operating System do you like the best? <br>
+                <label> <input type="checkbox"> Linux </label>
+                <label> <input type="checkbox"> Windows 10 </label>
+                <label> <input type="checkbox"> Macintosh 8.0 </label>
+            </label> <br><br><br>
+
+            <label> You have completed the form <input type="button" value="Sign Up"> </label>
+        </form>
+    </fieldset>
+</body>
+</html>
