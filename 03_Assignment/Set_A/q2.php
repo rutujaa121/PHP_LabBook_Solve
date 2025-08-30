@@ -12,7 +12,9 @@
         <input type="radio" name="r" value="2"> Count total no. of vowels <br>
         <input type="radio" name="r" value="3"> Convert given string to lowercase and title case <br>
         <input type="radio" name="r" value="4"> Pad String with "*" from both sides <br>
-
+        <input type="radio" name="r" value="5"> remove the leading whitespace  <br>
+        <input type="radio" name="r" value="6"> Find the reverse of the string  <br>
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
