@@ -43,4 +43,13 @@
             reverse($string);
             break;
     }
+    function strlength($string)
+    {
+        $strlength = 0;
+        while($string [$strlength]!=null)
+        {
+            $strlength ++;
+        }
+        echo $strlength;
+    }
 ?>
