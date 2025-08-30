@@ -10,8 +10,8 @@
         Enter String : <input type="text" name="str"> <br>
         <input type="radio" name="r" value="1"> Length of String <br>
         <input type="radio" name="r" value="2"> Count total no. of vowels <br>
-        <input type="radio" name="r" value="3"> Convert given string to lowercase <br>
-        <input type="radio" name="r" value="4"> Length of String <br>
+        <input type="radio" name="r" value="3"> Convert given string to lowercase and title case <br>
+        <input type="radio" name="r" value="4"> Pad String with "*" from both sides <br>
 
     </form>
 </body>
