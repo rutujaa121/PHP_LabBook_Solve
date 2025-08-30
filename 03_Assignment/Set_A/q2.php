@@ -9,8 +9,8 @@
     <form action="q2.php" method="POST">
         Enter String : <input type="text" name="str"> <br>
         <input type="radio" name="r" value="1"> Length of String <br>
-        <input type="radio" name="r" value="2"> Length of String <br>
-        <input type="radio" name="r" value="3"> Length of String <br>
+        <input type="radio" name="r" value="2"> Count total no. of vowels <br>
+        <input type="radio" name="r" value="3"> Convert given string to lowercase <br>
         <input type="radio" name="r" value="4"> Length of String <br>
 
     </form>
