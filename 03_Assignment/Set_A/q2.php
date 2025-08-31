@@ -56,5 +56,12 @@
     {
         $countv = 0;
         $vowels = array('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U');
+        for($i=0; $i<strlen($string); $i++)
+        {
+            if(in_array($string[$i], $vowels))
+            {
+                $countv++;
+            }
+        }
     }
 ?>
