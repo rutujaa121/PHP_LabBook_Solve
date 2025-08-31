@@ -30,18 +30,18 @@
         case 2:
             countv($string);
             break;
-        case 3:
-            lowercase($string);
-            break;
-        case 4:
-            padboth($string);
-            break;
-        case 5:
-            remove($string);
-            break;
-        case 6:
-            reverse($string);
-            break;
+        // case 3:
+        //     lowercase($string);
+        //     break;
+        // case 4:
+        //     padboth($string);
+        //     break;
+        // case 5:
+        //     remove($string);
+        //     break;
+        // case 6:
+        //     reverse($string);
+        //     break;
     }
     function strlength($string)
     {
@@ -51,5 +51,9 @@
             $strlength ++;
         }
         echo $strlength;
+    }
+    function countv($string)
+    {
+        $countv = 0;
     }
 ?>
