@@ -30,9 +30,9 @@
         case 2:
             countv($string);
             break;
-        // case 3:
-        //     lowercase($string);
-        //     break;
+        case 3:
+            lowercase($string);
+            break;
         // case 4:
         //     padboth($string);
         //     break;
@@ -67,5 +67,9 @@
     }
 
     // function lowercase($string)
-    
+    function lowercase($string)
+    {
+        echo strtolower($string)."<br>";
+        echo ucwords($string);
+    }
 ?>
