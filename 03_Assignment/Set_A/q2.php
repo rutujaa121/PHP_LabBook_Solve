@@ -66,4 +66,6 @@
         echo $countv;
     }
 
+    // function lowercase($string)
+    
 ?>
