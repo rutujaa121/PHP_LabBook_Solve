@@ -63,5 +63,7 @@
                 $countv++;
             }
         }
+        echo $countv;
     }
+
 ?>
