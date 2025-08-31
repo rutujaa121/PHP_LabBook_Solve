@@ -55,5 +55,6 @@
     function countv($string)
     {
         $countv = 0;
+        $vowels = array('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U');
     }
 ?>
