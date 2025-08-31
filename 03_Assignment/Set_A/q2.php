@@ -33,9 +33,9 @@
         case 3:
             lowercase($string);
             break;
-        // case 4:
-        //     padboth($string);
-        //     break;
+        case 4:
+            padboth($string);
+            break;
         // case 5:
         //     remove($string);
         //     break;
@@ -71,5 +71,10 @@
     {
         echo strtolower($string)."<br>";
         echo ucwords($string);
+    }
+
+    function padboth($string)
+    {
+        echo str_pad($string, strlen($string)+4, "*", STR_PAD_BOTH);
     }
 ?>
