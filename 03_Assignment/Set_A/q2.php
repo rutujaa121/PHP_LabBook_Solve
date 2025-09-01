@@ -75,7 +75,7 @@
 
     function padboth($string)
     {
-        echo str_pad($string, strlen($string)+4, "*", STR_PAD_BOTH);
+        echo str_pad($string, strlen($string)+4, "*", STR_PAD_RIGHT);
     }
 
     // function remove($string)
