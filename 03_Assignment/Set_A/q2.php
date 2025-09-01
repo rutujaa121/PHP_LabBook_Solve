@@ -77,6 +77,10 @@
     {
         echo str_pad($string, strlen($string)+4, "*", STR_PAD_BOTH);
     }
-    
+
     // function remove($string)
+    function remove($string)
+    {
+        echo ltrim($string);
+    }
 ?>
