@@ -85,4 +85,8 @@
     }
 
     // function reverse($string)
+    function reverse($string)
+    {
+        echo strrev($string);
+    }
 ?>
