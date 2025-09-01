@@ -84,5 +84,5 @@
         echo ltrim($string);
     }
 
-    
+    // function reverse($string)
 ?>
