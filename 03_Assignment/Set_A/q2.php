@@ -39,9 +39,9 @@
         case 5:
             remove($string);
             break;
-        // case 6:
-        //     reverse($string);
-        //     break;
+        case 6:
+            reverse($string);
+            break;
     }
     function strlength($string)
     {
