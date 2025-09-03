@@ -11,7 +11,7 @@
         Enter the name of the College: <input type="text" name="t2">
         Enter your Greeting Message: <input type="text" name="t3">
 
-        <input type="submit" value="Submit">>
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
@@ -25,5 +25,9 @@
     {
         if($a === null or $b === null or $c === null)
             echo "Welcome";
+
+        else
+            echo $a." ".$b."from".$c;
     }
+    dispaly($a, $b, $c);
 ?>
