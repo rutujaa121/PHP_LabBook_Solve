@@ -20,5 +20,23 @@
 </html>
 
 <?php 
+    $a = $_POST["str1"];
+    $b = $_POST["str2"];
+    $ch = $_POST["r"];
 
+    switch($ch)
+    {
+        case 1: $pos = strpos($b, $a);
+            if($pos != 0)
+                echo "String 2 not present at the start of the string 1";
+            else
+                echo "String 2 is present at the start of the string 1";
+            break;
+
+        case 2: $pos = strpos($a, $b);
+            echo $pos;
+            break;
+
+        
+    }
 ?>
