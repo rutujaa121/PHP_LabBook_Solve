@@ -37,6 +37,8 @@
             echo $pos;
             break;
 
-        
+        case 3: $pos = strcasecmp($a, $b);
+            echo $pos;
+            break;
     }
 ?>
