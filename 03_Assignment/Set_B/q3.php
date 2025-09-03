@@ -16,3 +16,14 @@
 </body>
 </html>
 
+<?php
+    $a = $_POST['t1'];
+    $b = $_POST['t2'];
+    $c = $_POST['t3'];
+
+    function dispaly($a, $b, $c)
+    {
+        if($a === null or $b === null or $c === null)
+            echo "Welcome";
+    }
+?>
