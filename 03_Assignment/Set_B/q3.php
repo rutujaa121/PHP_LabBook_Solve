@@ -4,6 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            /* flex-direction: column; */
+        }
+        form{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 20px;
+            color: royalblue;
+        }
+        input{
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+            padding-left: 10px;
+            outline: none;
+            border: 1px solid gray;
+            background-color: lightgrey;
+        }
+        input[type="submit"]{
+            width: 300px;
+            height: 40px;
+            background-color: rgb(2, 2, 110);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        input[type="submit"]:hover{
+            background-color: rgb(0, 0, 255);
+        }
+
+    </style>
 </head>
 <body>
     <form action="q3.php" method="POST">
@@ -21,13 +61,13 @@
     $b = $_POST['t2'];
     $c = $_POST['t3'];
 
-    function dispaly($a, $b, $c)
+    function dispaly($c, $a, $b)
     {
-        if($a === null or $b === null or $c === null)
+        if($c === null or $a === null or $b === null)
             echo "Welcome";
 
         else
-            echo $a." ".$b."from".$c;
+            echo $c." ".$a." from ".$b;
     }
-    dispaly($a, $b, $c);
+    dispaly($c, $a, $b);
 ?>
