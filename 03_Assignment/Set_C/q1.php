@@ -9,5 +9,7 @@
     <form action="q1.php" method="POST">
         Enter roll number: <input type="text" name="r"> <br><br>
         Enter name: <input type="text" name="n"> <br><br>
+
+        Java <input type="text" name="s1"> <br><br>
 </body>
 </html>
