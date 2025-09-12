@@ -12,5 +12,8 @@
 
         Java <input type="text" name="s1"> <br><br>
         PHP <input type="text" name="s2"> <br><br>
+        PHP <input type="text" name="s2"> <br><br>
+        PHP <input type="text" name="s2"> <br><br>
+        PHP <input type="text" name="s2"> <br><br>
 </body>
 </html>
