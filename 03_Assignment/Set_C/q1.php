@@ -15,5 +15,8 @@
         OS <input type="text" name="s3"> <br><br>
         TCS <input type="text" name="s4"> <br><br>
         Stat <input type="text" name="s5"> <br><br>
+
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
