@@ -12,8 +12,8 @@
 
         Java <input type="text" name="s1"> <br><br>
         PHP <input type="text" name="s2"> <br><br>
-        PHP <input type="text" name="s2"> <br><br>
-        PHP <input type="text" name="s2"> <br><br>
-        PHP <input type="text" name="s2"> <br><br>
+        OS <input type="text" name="s3"> <br><br>
+        TCS <input type="text" name="s4"> <br><br>
+        Stat <input type="text" name="s5"> <br><br>
 </body>
 </html>
