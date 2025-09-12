@@ -23,6 +23,8 @@
 
 <html>
 <body>
-    
+    <?php
+        $r = explode(",", $_POST['r']);
+    ?>
 </body>
 </html>
