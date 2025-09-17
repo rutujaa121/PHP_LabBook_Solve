@@ -25,6 +25,12 @@
 <body>
     <?php
         $r = explode(",", $_POST['r']);
+        $n = explode(",", $_POST['n']);
+        $s1 = explode(",", $_POST['s1']);
+        $s2 = explode(",", $_POST['s2']);
+        $s3 = explode(",", $_POST['s3']);
+        $s4 = explode(",", $_POST['s4']);
+        $s5 = explode(",", $_POST['s5']);
     ?>
 </body>
 </html>
