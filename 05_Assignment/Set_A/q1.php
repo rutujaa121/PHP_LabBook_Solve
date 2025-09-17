@@ -31,6 +31,8 @@
         case 2:
             echo "Last Modified Time : ".date("d-m-y h:i:sa", filemtime($f));
             break;
-        
+        case 3: 
+            echo "File Size : ".filesize($f)." bytes";
+            break;
     }
 ?>
