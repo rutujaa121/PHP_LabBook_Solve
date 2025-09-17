@@ -18,3 +18,19 @@
     </form>
 </body>
 </html>
+
+<?php
+    $f = $_POST['a'];
+    $c = $_POST['c'];
+
+    switch($ch)
+    {
+        case 1:
+            echo "File Type : ".filetype($f);
+            break;
+        case 2:
+            echo "Last Modified Time : ".date("d-m-y h:i:sa", filemtime($f));
+            break;
+        
+    }
+?>
