@@ -29,10 +29,10 @@
             echo "File Type : ".filetype($f);
             break;
         case 2:
-            echo "Last Modified Time : ".date("d-m-y h:i:sa", filemtime($f));
+            echo "Last Modified Time : ".fileatime($f);
             break;
         case 3: 
-            echo "File Size : ".filesize($f)." bytes";
+            echo "File Size : ".filesize($f);
             break;
     }
 ?>
