@@ -34,5 +34,15 @@
         case 3: 
             echo "File Size : ".filesize($f);
             break;
+        case 4:if(file_exists($f))
+            {
+                unlink($f);
+                echo "file deleted";
+            }
+            else
+            {
+                echo "file does not exist";
+            }
+            break;
     }
 ?>
