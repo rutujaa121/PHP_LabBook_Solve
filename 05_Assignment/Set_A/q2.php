@@ -7,4 +7,6 @@
         $read = fgets($file);
         echo $read;
     }
+    $size = filesize($f);
+    echo $size;
 ?>
