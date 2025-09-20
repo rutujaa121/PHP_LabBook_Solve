@@ -9,6 +9,19 @@
     <form action="q1.php" method="POST">
         Enter text first: <input type="text" name="a"> <br><br>
         Enter text second: <input type="text" name="b"> <br><br>
+
+        <input type="submit" value="Submit">
     </form>
+
 </body>
 </html>
+<?php 
+    $a = $_POST['a'];
+    $b = $_POST['b'];
+
+    if (copy($a, $b)) {
+        echo "File copied successfully.";
+    } else {
+        echo "Failed to copy file.";
+    }
+    
