@@ -24,4 +24,4 @@
     } else {
         echo "Failed to copy file.";
     }
-    
+?>
