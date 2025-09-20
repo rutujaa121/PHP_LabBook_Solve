@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="q1.php" method="POST">
+        Enter text first: <input type="text" name="a"> <br><br>
+    </form>
 </body>
 </html>
