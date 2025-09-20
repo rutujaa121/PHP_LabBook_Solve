@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="q3.php" method="POST">
+    <form action="q1.php" method="POST">
         Enter First String: <input type="text" name="str1">
         Enter Second String: <input type="text" name="str2"> <br><br><br>
 
