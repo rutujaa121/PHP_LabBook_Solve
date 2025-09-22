@@ -19,9 +19,11 @@
     $a = $_POST['a'];
     $b = $_POST['b'];
 
-    if (copy($a, $b)) {
+
+ if (copy($a, $b)) {
         echo "File copied successfully.";
     } else {
         echo "Failed to copy file.";
+        
     }
 ?>
