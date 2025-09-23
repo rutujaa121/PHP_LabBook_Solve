@@ -24,6 +24,5 @@
         echo "File copied successfully.";
     } else {
         echo "Failed to copy file.";
-        
     }
 ?>
