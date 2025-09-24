@@ -25,7 +25,8 @@
             
             while(($line = fgets($f))!== false)
             {
-                $data = explode(",",trim );
+                $data = explode(",",trim, );
+
             }
         ?>
     </table>
