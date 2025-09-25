@@ -41,6 +41,8 @@
                     echo "<td>$m</td>";
                 }
                 echo "<td>$total</td>";
+                echo "<td>.number_format($percentage,2)</td>";
+                echo "</tr>";
             }
         ?>
     </table>
