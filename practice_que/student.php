@@ -34,6 +34,7 @@
 
                 echo "<tr>";
                 echo "<td>$roll</td>";
+                echo "<td>$name</td>";
             }
         ?>
     </table>
