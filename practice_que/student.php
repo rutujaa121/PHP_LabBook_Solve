@@ -30,6 +30,7 @@
                 $name = $data[1];
                 $marks = array_slice($data,2,6);
                 $total = array_sum($marks);
+                $percentage = $total / 6;
             }
         ?>
     </table>
