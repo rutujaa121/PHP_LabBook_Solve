@@ -25,7 +25,9 @@
             
             while(($line = fgets($f))!== false)
             {
-                $data = explode(",",trim, );
+                $data = explode(",",trim($line));
+                $roll = $data[0];
+                
 
             }
         ?>
