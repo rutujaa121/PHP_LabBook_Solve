@@ -27,8 +27,8 @@
             {
                 $data = explode(",",trim($line));
                 $roll = $data[0];
-                
-
+                $name = $data[1];
+                $marks = array_slice($data,2,6);
             }
         ?>
     </table>
