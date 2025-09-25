@@ -35,6 +35,12 @@
                 echo "<tr>";
                 echo "<td>$roll</td>";
                 echo "<td>$name</td>";
+
+                foreach($marks as $m)
+                {
+                    echo "<td>$m</td>";
+                }
+                echo "<td>$total</td>";
             }
         ?>
     </table>
