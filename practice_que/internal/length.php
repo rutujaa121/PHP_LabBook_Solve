@@ -1,4 +1,4 @@
 <?php
 $a="hello world";
-echo ucwords($a);
+echo strlen($a);
 ?>
